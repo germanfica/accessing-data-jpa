@@ -7,8 +7,10 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Component
 public class TestCustomer {
+    // == fields ==
     private CustomerRepository repository;
 
+    // == constructors ==
     @Autowired
     public TestCustomer(CustomerRepository repository) {
         // save a few customers
